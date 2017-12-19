@@ -57,10 +57,10 @@ function saisieU(){
       document.getElementById("zoneDroite").innerHTML+="Le nombre se situe entre 71 et 80" +"<br>";
     }
     if(nbRandom<= 90 &&nbRandom>=81){
-      document.getElementById("zoneDroite").innerHTML+="Le nombre se situe entre 81 et 90" +saisieU+ flemard+"<br>";
+      document.getElementById("zoneDroite").innerHTML+="Le nombre se situe entre 81 et 90" +"<br>";
     }
     if(nbRandom<= 100 &&nbRandom>=91){
-      document.getElementById("zoneDroite").innerHTML+="Le nombre se situe entre 91 et 100" +saisieU+ flemard+"<br>";
+      document.getElementById("zoneDroite").innerHTML+="Le nombre se situe entre 91 et 100" +"<br>";
     }
   }
   else if(toto==10){
