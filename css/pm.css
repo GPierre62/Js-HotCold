@@ -1,0 +1,56 @@
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0%;
+}
+
+.boite{
+  display: inline-flex;
+  background-color: rgb(252, 155, 9);
+}
+
+.pboite{
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding: 3.5%;
+  background-color: blue;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.zonerght{
+  border: 1px solid red;
+  float: right;
+  height: 100%;
+  width:48%;
+}
+
+p{
+  float: left;
+  width: 95%;
+  height: 23%;
+  padding: 1%;
+  text-align: justify;
+}
+
+.boitebou{
+  display: flex;
+  width: 99%;
+  float: right;
+  justify-content: flex-end;
+}
+
+input{
+  float: right;
+  width: 25%;
+}
