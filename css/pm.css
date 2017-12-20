@@ -51,6 +51,9 @@ p{
   float: right;
   justify-content: flex-end;
 }
+#zoneB2{
+  display: none;
+}
 
 input{
   float: right;

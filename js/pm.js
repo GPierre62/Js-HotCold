@@ -21,6 +21,8 @@ function saisieU(){
     document.getElementById("zoneDroite").style.backgroundColor="green";
     document.getElementById("trololol").style.textDecoration="blink";
     console.log("Fin du script!");
+    document.getElementById("zoneB").style.display="none";
+    document.getElementById("zoneB2").style.display="block"
   }
 
   if (saisieU > nbRandom){
@@ -69,4 +71,8 @@ function saisieU(){
     window.location.reload();/* recherge la page pour reset le jeux*/
   }
 
+}
+
+function bonus(){/* perme le reset du jeux quand celui-ci est gagné*/
+    window.location.reload(true);
 }
